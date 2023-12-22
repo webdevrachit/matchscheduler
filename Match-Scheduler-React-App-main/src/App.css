@@ -1,0 +1,239 @@
+/* .App {
+  text-align: center;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Joan&display=swap");
+
+.responsive {
+  visibility: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  background-color: whitesmoke;
+  margin-top: 24%;
+  text-align: center;
+  color: rgb(72, 71, 71);
+}
+.App-header {
+  font-family: "Carattere", cursive;
+  text-align: center;
+  background-color: rgb(243, 98, 98);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(14px + 2vmin);
+  color: whitesmoke;
+  font-weight: 700;
+}
+.caption {
+  font-size: calc(8px + 1vmin);
+  font-weight: 400;
+  color: whitesmoke;
+  font-family: "Joan", serif;
+}
+
+.Instruction {
+  font-family: "Joan", serif;
+  padding-top: 5%;
+  font-size: calc(9px + 2vmin);
+  text-align: center;
+  color: rgb(37, 37, 76);
+}
+
+.Instruction2 {
+  font-family: "Joan", serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: calc(9px + 2vmin);
+  text-align: center;
+  color: rgb(37, 37, 76);
+}
+.selection {
+  text-align: center;
+}
+.dd {
+  width: 45%;
+  padding: 10px;
+  font-size: 20px;
+  border-width: 3px;
+  border-style: solid;
+  /* border-color: -internal-light-dark(rgb(245, 135, 135), rgb(133, 133, 133)); */
+  background-color: whitesmoke;
+  border: none;
+  color: rgb(196, 51, 51);
+  font-weight: 400;
+  outline: none;
+}
+.ddo {
+  background-color: whitesmoke;
+  color: rgb(23, 23, 38);
+}
+button {
+  position: absolute;
+  top: 82%;
+  left: 54%;
+  background-color: rgb(200, 59, 59);
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  height: 5%;
+  width: 15%;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.backBtn {
+  position: absolute;
+  top: 82%;
+  left: 31.5%;
+  background-color: rgb(200, 59, 59);
+  color: whitesmoke;
+  height: 5%;
+  width: 15%;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.fm {
+  display: block;
+  text-align: center;
+}
+
+#dat {
+  justify-content: space-evenly;
+  width: 50%;
+  height: 120px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  outline: none;
+  margin: auto;
+}
+#inpf {
+  justify-content: space-evenly;
+  width: 50%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  outline: none;
+  margin-left: 13.85%;
+}
+
+input[type="text"] {
+  width: 250px;
+  outline: none;
+  height: 30px;
+}
+input[type="text"]::placeholder {
+  /* Firefox, Chrome, Opera */
+  text-align: start;
+}
+#comments {
+  position: absolute;
+  top: 300px;
+  left: 52.85%;
+  height: 35%;
+
+  /* border: none; */
+  outline: none;
+}
+#tourneyName {
+  position: absolute;
+  top: 475px;
+  left: 30.5%;
+
+  /* border: none; */
+  outline: none;
+}
+.dd2 {
+  width: 35%;
+  padding: 10px;
+  font-size: 17px;
+  border-width: 3px;
+  border-style: solid;
+  /* border-color: -internal-light-dark(rgb(245, 135, 135), rgb(133, 133, 133)); */
+  background-color: whitesmoke;
+  border: none;
+  color: rgb(196, 51, 51);
+  font-weight: 400;
+  outline: none;
+}
+.selection2 {
+  width: 100%;
+  text-align: right;
+}
+.upper {
+  margin: auto;
+  width: 50%;
+  /* background-color: aqua; */
+  justify-content: space-evenly;
+  height: 90px;
+  display: flex;
+}
+#tn1 {
+  height: 35%;
+}
+
+.lower {
+  margin: auto;
+  width: 50%;
+  padding-top: 4%;
+  /* background-color: rgb(21, 158, 44); */
+  justify-content: space-evenly;
+
+  display: flex;
+}
+/* .pic {
+  background-image: url(../src/VSpic.png);
+  size: 100px;
+} */
+
+.divider1 {
+  position: absolute;
+  top: 49.6%;
+  right: 7%;
+  width: 40%;
+  justify-self: right;
+  border: none;
+}
+.divider2 {
+  position: absolute;
+  left: 7%;
+  top: 49.6%;
+  width: 40%;
+}
+#vs {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.sfm {
+  background-color: aqua;
+  height: fit-content;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+table {
+  font-size: large;
+  margin: auto;
+
+  justify-content: space-between;
+  border: 2px solid rgb(243, 98, 98);
+  width: 1300px;
+  height: 200px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
